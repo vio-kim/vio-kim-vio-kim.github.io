@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Установка СКС, Систем Безопасности и ЛВС</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="logo">Ваша Компания</div>
+            <div class="contacts">
+                <p>Телефон: +7 (771) 666-77-73</p>
+                <p>Email: info@company.ru</p>
+            </div>
+            <a href="https://wa.me/77716667773" class="cta-btn" target="_blank">Связаться в WhatsApp</a>
+        </div>
+    </header>
+
+    <!-- Блок с УТП -->
+    <section class="hero">
+        <div class="container">
+            <h1>Профессиональная установка систем безопасности и связи</h1>
+            <p>Мы обеспечим ваш бизнес всем необходимым: от видеонаблюдения до пожарной сигнализации</p>
+            <a href="https://wa.me/77716667773" class="cta-btn" target="_blank" >Получить консультацию</a>
+        </div>
+    </section>
+
+    <!-- Блок с Услугами -->
+    <section class="services animated-bg"  id="background">
+        <div class="container">
+            <h2>Наши услуги</h2>
+                <!-- <img src="cablin.jpg" alt="Service Image 1">
+                <img src="пожарная_датчик.jpeg" alt="Service Image 2">
+                <img src="услуги.jpg" alt="Service Image 3"> -->
+            <div class="service-item">
+                <h3>Системы видеонаблюдения</h3>
+                <p>Проектирование, установка и обслуживание систем видеонаблюдения.</p>
+            </div>
+            <div class="service-item">
+                <h3>СКУД</h3>
+                <p>Контроль и управление доступом для вашего объекта.</p>
+            </div>
+            <div class="service-item">
+                <h3>Охранная сигнализация</h3>
+                <p>Надежная охрана вашего бизнеса с нашей сигнализацией.</p>
+            </div>
+            <div class="service-item">
+                <h3>Пожарная сигнализация</h3>
+                <p>Установка и обслуживание систем пожарной сигнализации по стандартам.</p>
+            </div>
+            <div class="service-item">
+                <h3>Сети ЛВС</h3>
+                <p>Проектирование и монтаж локальных вычислительных сетей.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с Преимуществами -->
+    <section class="advantages">
+        <div class="container">
+            <h2>Почему выбирают нас?</h2>
+            <ul>
+                <li>Более 10 лет опыта работы</li>
+                <li>Сертифицированные специалисты</li>
+                <li>Гарантии качества</li>
+                <li>Круглосуточная поддержка</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Блок с Формой обратной связи -->
+    <section class="contact-form">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <form id="contactForm" onsubmit="submitForm(event)" method="POST">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="phone" placeholder="Ваш телефон" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Контактная информация -->
+    <footer>
+        <div class="container">
+            <p>Адрес: ул. Примерная, д. 1, Москва</p>
+            <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+            <p>Email: info@company.ru</p>
+        </div>
+    </footer>
+
+    <script src="test.js"></script>
+</body>
+</html>
